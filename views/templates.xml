@@ -1,0 +1,11 @@
+<odoo>
+	<data>
+
+		<template id="bar" inherit_id="web.assets_backend">
+			<xpath expr="." position="inside">
+				<script src="/test-js/static/src/js/component.js"
+					type="text/javascript" />
+			</xpath>
+		</template>
+	</data>
+</odoo>
